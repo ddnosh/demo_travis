@@ -2,7 +2,7 @@ language: android
 jdk:
   - oraclejdk8
 script:
-- ./gradlew :app:assembleDebug
+- ./gradlew :app:assembleRelease
 android:
   components:
     - tools
